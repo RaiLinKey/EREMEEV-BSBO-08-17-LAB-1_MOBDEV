@@ -7,13 +7,15 @@
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_centerInParent="true"
+        android:text="PUSH" />
 
     <Button
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="230dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="300dp"
         android:layout_toEndOf="@+id/button13"
         android:text="Button" />
 </RelativeLayout>

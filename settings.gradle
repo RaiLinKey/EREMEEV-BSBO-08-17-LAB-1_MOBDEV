@@ -1,2 +1,2 @@
-include ':app', ':layouttype'
+include ':app', ':layouttype', ':clickbuttons'
 rootProject.name='LABA_1'
