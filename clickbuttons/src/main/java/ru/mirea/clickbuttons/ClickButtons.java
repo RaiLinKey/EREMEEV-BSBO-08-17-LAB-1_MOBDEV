@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+//import android.widget.Toast;
 
 
 public class ClickButtons extends AppCompatActivity {
@@ -34,6 +35,11 @@ public class ClickButtons extends AppCompatActivity {
                 textView.setText("Нажата кнопка Cancel");
             }
         };
+
+        /*public void onMyButtonClick(View view)
+        {
+            Toast.makeText(this, "Ещё один способ", Toast.LENGTH_SHORT).show();
+        }*/
 
         buttonOK.setOnClickListener(oclBtnOK);
         buttonCancel.setOnClickListener(oclBtnCancel);
